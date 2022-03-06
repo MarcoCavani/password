@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Random Password Generetor</title>
+</head>
+
+<style>
+
+    *{
+        box-sizing: border-box;
+        
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 1.3rem;
+    }
+
+    main{
+        border: 1px solid silver;
+    }
+    main div{
+        border: .1rem solid silver;
+    }
+    input{
+        width: 70%;
+        max-width: 20rem;
+        border: 2px solid silver;
+    }
+    span{
+        color: goldenrod;
+        margin: 0;
+        padding: 0;
+    }
+
+    table{
+        border-spacing: 0px;
+    }
+    td{
+        border: 1px solid silver;
+        margin: 0;
+        padding: 0;
+        width: 2rem;
+        text-align: center;
+    }
+
+  
+</style>
+    
+<body>
+
+
+   <header class="m2"><h1>Random keyStream Generator <i class="fa fa-key" style="font-size:48px;color:goldenrod"></i> </h1>
+    <input id="plainText" type="text" placeholder="plaintext">
+    <button>Send</button>
+    <p class="plainText"></p>
+    <p class="plainTextLength"></p>
+    <p class="keyLength"></p>
+    <p class="key"></p>
+    <p class="asciiKey"></p>
+    <p class="binaryKey"></p>
+    <p class="plainTextNum"></p>
+</header>
+   <main>
+
+    <p class="x"></p>
+    <p class="s"></p>
+    <p class="y"></p>
+
+    
+
+   
+
+   </main>
+   
+
+
+</body>
+
+<script src="keyStream.js"></script>
+
+
+</html>
